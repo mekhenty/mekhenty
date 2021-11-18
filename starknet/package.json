@@ -1,0 +1,17 @@
+{
+  "name": "mekhenty",
+  "version": "1.0.0",
+  "scripts": {
+    "test:mocha": "npx hardhat test",
+    "test:pytest": "pytest contracts_tests/*.py -v",
+    "compile": "npx hardhat starknet-compile",
+    "deploy:alpha": "hardhat starknet-deploy --starknet-network alpha"
+  },
+  "dependencies": {
+    "@shardlabs/starknet-hardhat-plugin": "^0.3.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}
