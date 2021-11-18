@@ -1,0 +1,1 @@
+# Bridged version of ERC1155.cairo contract
