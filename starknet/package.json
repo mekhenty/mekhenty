@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "scripts": {
     "test:mocha": "npx hardhat test",
-    "test:pytest": "pytest contracts_tests/*.py -v",
-    "compile": "npx hardhat starknet-compile",
-    "deploy:alpha": "hardhat starknet-deploy --starknet-network alpha"
+    "test:pytest": "pytest contracts_tests/bridged1155.py -v",
+    "compile": "npx hardhat starknet-compile"
   },
   "dependencies": {
     "@shardlabs/starknet-hardhat-plugin": "^0.3.0"
   },
   "devDependencies": {
+    "@types/chai": "^4.2.22",
+    "@types/mocha": "^9.0.0",
+    "chai": "^4.3.4",
     "ts-node": "^10.4.0",
     "typescript": "^4.5.2"
   }
